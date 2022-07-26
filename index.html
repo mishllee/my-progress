@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>mishllee | Personal Website</title>
+        <title>mishllee | Home</title>
+        <link href="index.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>Hello!</h1>
-            <h4>My name is Michelle Lee, and I am learning to code.</h4>
-        </header>
-        <div id="about">
-            <p>This is my first website, where I will apply my knowledge and track my progress. I am between pursuing web development and software engineering at the moment, so I hope to learn as much as possible to keep my options open for the time being, then make a decision once I know what fits me best.</p>
-        </div>
-        <div id="links">
-            <ul>
-                <li><a href="./about.html">About Me</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="https://www.instagram.com/mishllee/" target="_blank">Instagram</a></li>
-            </ul>
-        </div>
+        <nav class="nav-bar">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./about.html">Bio</a>
+            <a href="./projects.html">Projects</a>
+            <a href="https://www.instagram.com/mishllee/" target="_blank">Instagram</a>
+        </nav>
+        <section>
+            <img src="/media/cover-sq.JPG" height="300px"width="auto">
+            <header>
+                <h1>Hello!</h1>
+                <h3 class="subheading">My name is Michelle Lee, and I am learning to code.</h3>
+            </header>
+            <main>
+                <div id="about">
+                    <p>This is my first website, where I will apply my knowledge and track my progress. I am between pursuing web development and software engineering at the moment, so I hope to learn as much as possible to keep my options open for the time being, then make a decision once I know what fits me best.<br><br>
+                    I will also use this site as a creative outlet to document my progress in other areas in my life as well. Check out the bio tab to read more about me, and the project tab to see what I'm working on.</p>
+                </div>
+                <footer>
+                    <h3>Have a day.</h3>
+                    <h5><em>Updated: 26 July 2022</em></h5>
+                </footer>
+            </main>
+        </section>
     </body>
-    <footer>
-        <h3>Have a day.</h3>
-    </footer>
 </html>

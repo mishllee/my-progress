@@ -1,0 +1,68 @@
+body {
+    background-color:rgb(42, 46, 51);
+}
+
+nav {
+    padding: 8px ;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top:0; left: 0;
+    width: 100%;
+}
+
+nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin: 0;
+}
+
+section {
+    margin: 50px 15%;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+img {
+    border-radius: 150px;
+    margin:auto;
+    display:block;
+    
+}
+
+header h1 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: rgb(151, 156, 163);
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    text-align:center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: rgb(151, 156, 163);
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    
+}
+
+.active {
+    background-color: rgb(52, 57, 63);
+}
+
+.page-heading {
+    text-align: center;
+}
+
